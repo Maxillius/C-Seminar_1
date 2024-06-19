@@ -1,0 +1,133 @@
+## Игнорировать временные файлы Visual Studio, результаты сборки и
+## файлы, сгенерированные популярными надстройками Visual Studio.
+
+# Пользовательские файлы
+*.suo
+*.пользователь
+*.sln.docутверждает
+
+# Результаты сборки
+
+[Дд] ebug/
+[Рр] Элиз/
+х64/
+[Вв] в/
+[Оо] БЖ/
+
+# Результаты теста MSTest
+[Тт] est[Rr]esult*/
+[Вв] uild[Ll]og.*
+
+*_i.c
+*_p.c
+*_i.h
+*.тип
+*.мета
+*.obj
+*Файл .pch
+*PDB-файл
+*PGC-файл
+*PGD-файл
+*.rsp
+*Домен .sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.журнал
+*Файл VSPSCC
+*.vssscc
+.Строит
+*PIDB-файл
+*.журнал
+*.svclog
+*Домен SCC
+
+# Файлы кэша Visual C++
+IPCH/
+*.aps
+*.ncb
+*.opensdf
+*Домен .sdf
+*.cacheфайл
+
+# Профилировщик Visual Studio
+*.psess
+*.vsp
+*.vspx
+
+# Инструментарий автоматизации наведения
+*.gpState
+
+# ReSharper — это надстройка для программирования .NET
+_ReSharper*/
+*См.[Рр] e[Ss]harper
+*. DotSettings.user
+
+# Каталог Click-Once
+издавать/
+
+# Публикация выходных данных в Интернете
+*. Publish.xml
+*PUBXML-файл
+*.azurePubxml
+
+# Каталог пакетов NuGet
+## TODO: Если у вас включено восстановление пакетов NuGet, раскомментируйте следующую строку
+Пакеты/
+## TODO: Если инструмент, который вы используете, требует repositories.config, также раскомментируйте следующую строку
+!packages/repositories.config
+
+# Выходные данные сборки Windows Azure
+КСХ/
+*.build.csdef (файл .build.csdef)
+
+# Каталог пакетов приложений Магазина Windows
+AppPackages (Пакеты приложений)/
+
+# Другие
+SQL/
+*. Тайник
+КлиентБин/
+[С.С.] tyle[Cc]op.*
+![Сс] tyle[Cc]op.targets
+~$*
+*~
+*DBMDL
+*См.[стр.] ublish.xml
+
+*.publishsettings
+
+# Проекты RIA/Silverlight
+Generated_Code/
+
+# Резервное копирование файлов и создание отчетов при преобразовании старого файла проекта в новый
+# Версия Visual Studio. Файлы резервных копий не нужны, потому что у нас есть git ;-)
+_UpgradeReport_Files/
+Резервная копия*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# Файлы SQL Server
+App_Data/*.mdf
+App_Data/*.ldf
+
+# =========================
+# Мусор Windows
+# =========================
+
+# Кэш файлов образов Windows
+Thumbs.db
+ehthumbs.db
+
+# Конфигурационный файл папки
+Desktop.ini
+
+# Корзина, используемая в общих папках
+$RECYCLE. БУНКЕР/
+
+# Файлы хранилища служб настольных компьютеров Mac
+.DS_Store
+
+_NCrunch*
